@@ -1,0 +1,77 @@
+.main-banner {
+    // height: calc(100vh - #{$header-height});
+    // height: 800px;
+    padding: 6rem 1rem 11rem;
+    background: blue;
+    color: #fff;
+    text-align: left;
+    position: relative;
+    // font-size: $h1-font-size;
+    
+    &__content {
+        position: relative;
+        left: 2.5rem;
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        opacity: 0.8;
+
+        // @include tablet
+    }
+        
+    &__title {
+        font-size: 4rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    &__description {
+        // margin-top: 0;
+        font-size: 2rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        // text-shadow: 2px 2px 4px #000000;
+        
+    }
+
+    .button {
+        @include boton(blue);
+        background: blue transparent;
+        margin: 1rem;
+        margin-left: 0;
+        color: #fff;
+        // opacity: 0.3;
+        transition: color .6s ease-in-out;
+        // text-transform: uppercase;
+        
+        &:hover {
+            // background: $terciario;
+            color: grey;
+            transition: color .6s ease-in-out;
+        }
+    }
+    
+}
+
+/* .button {
+    @include boton($border-color);
+    background: $secundario transparent;
+    margin: 1.5rem;
+    color: $blanco;
+    // opacity: 0.3;
+    transition: color .6s ease-in-out;
+    // text-transform: uppercase;
+    
+    &:hover {
+        // background: $terciario;
+        color: $border-color;
+        transition: color .6s ease-in-out;
+    }
+} */

@@ -1,0 +1,35 @@
+
+@mixin boton($color) {
+    color: $color;
+    display: inline-block;
+    border: 1px solid;
+    padding: .5rem 2rem;
+    // color: $border-color;
+    border-radius: .25rem;
+
+    // padding: .6rem 1rem;
+    // margin: 0 32rem;
+    // text-decoration: none;
+    // text-transform: uppercase;
+}
+
+/*-------------- Media Queries -------------------*/
+
+
+@mixin telefono{
+    @media only screen and (min-width: #{$telefono}){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media only screen and (min-width: #{$tablet}){
+        @content;
+    }
+}
+
+    @mixin desktop{
+    @media only screen and (min-width: #{$desktop}){
+        @content;
+    }
+}

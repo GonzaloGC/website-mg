@@ -1,2 +1,6 @@
 import "./styles/main.scss";
 import "./static/img/mg.jpg";
+
+import "./static/img/facebook.svg";
+import "./static/img/instagram.svg";
+import "./static/img/twitter.svg";

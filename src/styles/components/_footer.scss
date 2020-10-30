@@ -1,16 +1,17 @@
 //  ----------------------- Footer --------------------------- 
 
 .footer {
-    // @include gradiente2($principal, $secundario);
     display: flex;
-    justify-content: center;
-    list-style: none;
+    justify-content: space-around;
+    padding: 2rem;
 
-    .social {
-        padding: 2rem;
-        
+    .icon-facebook{
+        width: 2rem;
     }
-    img{
-        width: 10px;
+    .icon-twitter{
+        width: 3rem;
+    }
+    .icon-instagram{
+        width: 3rem;
     }
 }

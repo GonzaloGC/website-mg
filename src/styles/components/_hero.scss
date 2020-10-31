@@ -57,7 +57,22 @@
             transition: color .6s ease-in-out;
         }
     }
-    
+    .button-two {
+        @include boton(blue);
+        background: blue transparent;
+        margin: 1rem;
+        margin-left: 0;
+        color: #fff;
+        // opacity: 0.3;
+        transition: color .6s ease-in-out;
+        // text-transform: uppercase;
+        
+        &:hover {
+            // background: $terciario;
+            color: rgb(92, 92, 255);
+            transition: color .6s ease-in-out;
+        }
+    }
 }
 
 /* .button {

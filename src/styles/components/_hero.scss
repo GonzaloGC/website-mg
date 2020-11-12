@@ -1,7 +1,8 @@
 .main-banner {
+    // width: 100%;
     // height: calc(100vh - #{$header-height});
     // height: 800px;
-    padding: 6rem 1rem 11rem;
+    padding: 6rem 3rem 11rem;
     background: blue;
     color: #fff;
     text-align: left;
@@ -63,12 +64,9 @@
         margin: 1rem;
         margin-left: 0;
         color: #fff;
-        // opacity: 0.3;
         transition: color .6s ease-in-out;
-        // text-transform: uppercase;
         
         &:hover {
-            // background: $terciario;
             color: rgb(92, 92, 255);
             transition: color .6s ease-in-out;
         }

@@ -2,7 +2,7 @@ import "./map";
 
 import "./styles/main.scss";
 import "./static/img/mg.jpg";
-import "./static/img/pexel.jpg";
+import "./static/img/pcFormateo.jpeg";
 
 import "./static/img/facebook.svg";
 import "./static/img/instagram.svg";

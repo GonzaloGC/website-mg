@@ -1,9 +1,7 @@
-
-
 .main-service {
     position: relative;
     &__img {
-        position: absolute;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
@@ -12,4 +10,9 @@
         object-position: center;
         opacity: 0.8;
     }
+}
+
+.services-banner{
+    position: relative;
+    // z-index: -1;
 }
